@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 4.6.2\n"
 
+msgctxt "Addon Summary"
+msgid "Kodi Joystick Library"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "This library provides joystick drivers and button maps. Multiple joystick APIs are supported, including DirectX, XInput, SDL and the Linux Joystick API."
+msgstr ""
+
 msgctxt "#30000"
 msgid "Driver settings"
 msgstr "Setari driver"
