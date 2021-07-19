@@ -17,6 +17,7 @@
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
+    <summary lang="da_DK">Kodi Joystick Bibliotek</summary>
     <summary lang="de_DE">Kodi Joystick Library</summary>
     <summary lang="en_GB">Kodi Joystick Library</summary>
     <description lang="de_DE">Diese Bibliothek enthält Joystick-Treiber und Schaltflächenzuordnungen. Es werden mehrere Joystick-APIs unterstützt, darunter DirectX, XInput, SDL und die Linux-Joystick-API.</description>
