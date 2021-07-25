@@ -18,9 +18,13 @@
       <icon>resources/icon.png</icon>
     </assets>
     <summary lang="da_DK">Kodi Joystick Bibliotek</summary>
-    <summary lang="de_DE">Kodi Joystick Library</summary>
+    <summary lang="de_DE">Joystick-Bibliothek für Kodi</summary>
     <summary lang="en_GB">Kodi Joystick Library</summary>
+    <summary lang="pl_PL">Biblioteka joysticków Kodi</summary>
+    <summary lang="ru_RU">Каталог джойстиков для Kodi</summary>
     <description lang="de_DE">Diese Bibliothek enthält Joystick-Treiber und Schaltflächenzuordnungen. Es werden mehrere Joystick-APIs unterstützt, darunter DirectX, XInput, SDL und die Linux-Joystick-API.</description>
     <description lang="en_GB">This library provides joystick drivers and button maps. Multiple joystick APIs are supported, including DirectX, XInput, SDL and the Linux Joystick API.</description>
+    <description lang="pl_PL">Ta biblioteka zawiera sterowniki joysticków i mapy przycisków. Obsługiwanych jest wiele interfejsów API joysticków, m.in. DirectX, XInput, SDL oraz Joystick API systemu Linux.</description>
+    <description lang="ru_RU">Этот каталог предоставляет драйверы джойстиков и схемы расположения кнопок. Поддерживается несколько API джойстиков, включая DirectX, XInput, SDL и Linux Joystick API.</description>
   </extension>
 </addon>
