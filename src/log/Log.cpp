@@ -1,6 +1,6 @@
 /*
- *  Copyright (C) 2014-2020 Garrett Brown
- *  Copyright (C) 2014-2020 Team Kodi
+ *  Copyright (C) 2014-2021 Garrett Brown
+ *  Copyright (C) 2014-2021 Team Kodi
  *  Portions Copyright (C) 2013-2014 Lars Op den Kamp
  *
  *  SPDX-License-Identifier: GPL-2.0-or-later
