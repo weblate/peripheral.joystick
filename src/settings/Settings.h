@@ -24,7 +24,7 @@ namespace JOYSTICK
     /*!
      * \brief Set the value of a setting. Called by the frontend.
      */
-    void SetSetting(const std::string& strName, const kodi::CSettingValue& value);
+    void SetSetting(const std::string& strName, const kodi::addon::CSettingValue& value);
 
     /*!
      * \brief Check if the settings have been initialized

@@ -19,7 +19,7 @@ namespace JOYSTICK
 {
   class IControllerHelper;
 
-  class CDatabaseXml : public CJustABunchOfFiles
+  class DLL_PRIVATE CDatabaseXml : public CJustABunchOfFiles
   {
   public:
     CDatabaseXml(const std::string& strBasePath, bool bReadWrite, IDatabaseCallbacks* callbacks, IControllerHelper *controllerHelper);

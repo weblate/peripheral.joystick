@@ -8,6 +8,8 @@
 
 #pragma once
 
+#include "utils/CommonMacros.h"
+
 #include <kodi/Filesystem.h>
 
 #include <chrono>
@@ -27,7 +29,7 @@ namespace JOYSTICK
     virtual void OnRemove(const kodi::vfs::CDirEntry& item) = 0;
   };
 
-  class CDirectoryCache
+  class DLL_PRIVATE CDirectoryCache
   {
   public:
     void Initialize(IDirectoryCacheCallback* callbacks);
