@@ -25,7 +25,7 @@ namespace JOYSTICK
   /*!
    * \brief Container class for device records and button maps
    */
-  class CResources
+  class DLL_PRIVATE CResources
   {
   public:
     CResources(const CJustABunchOfFiles* database);
@@ -55,8 +55,8 @@ namespace JOYSTICK
     ResourceMap m_resources;
   };
 
-  class CJustABunchOfFiles : public IDatabase,
-                             public IDirectoryCacheCallback
+  class DLL_PRIVATE CJustABunchOfFiles : public IDatabase,
+                                         public IDirectoryCacheCallback
   {
   public:
     CJustABunchOfFiles(const std::string& strResourcePath,

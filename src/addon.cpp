@@ -47,18 +47,9 @@ ADDON_STATUS CPeripheralJoystick::Create()
   return ADDON_STATUS_NEED_SETTINGS;
 }
 
-ADDON_STATUS CPeripheralJoystick::SetSetting(const std::string& settingName, const kodi::CSettingValue& settingValue)
+ADDON_STATUS CPeripheralJoystick::SetSetting(const std::string& settingName, const kodi::addon::CSettingValue& settingValue)
 {
   CSettings::Get().SetSetting(settingName, settingValue);
-  return ADDON_STATUS_OK;
-}
-
-
-ADDON_STATUS CPeripheralJoystick::GetStatus()
-{
-  if (!CSettings::Get().IsInitialized())
-    return ADDON_STATUS_NEED_SETTINGS;
-
   return ADDON_STATUS_OK;
 }
 
