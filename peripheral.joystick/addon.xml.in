@@ -25,9 +25,11 @@
     <summary lang="es_MX">Biblioteca de Joysticks de Kodi</summary>
     <summary lang="fr_FR">Bibliothèque de joystick Kodi</summary>
     <summary lang="ko_KR">Kodi 조이스틱 라이브러리</summary>
+    <summary lang="nb_NO">Kodi Joystick-bibliotek</summary>
     <summary lang="pl_PL">Biblioteka joysticków Kodi</summary>
     <summary lang="pt_BR">Biblioteca de Joystick do Kodi</summary>
     <summary lang="ru_RU">Каталог джойстиков для Kodi</summary>
+    <summary lang="sv_SE">Kodi Joystick bibliotek</summary>
     <summary lang="tr_TR">Kodi Oyun Çubuğu Kütüphanesi</summary>
     <summary lang="zh_CN">Kodi 游戏杆库</summary>
     <description lang="ca_ES">Aquesta llibreria proporciona controladors de joystick i mapes de botons. S'admeten diverses API de joystick, incloses DirectX, XInput, SDL i l'API Joystick de Linux.</description>
@@ -37,6 +39,7 @@
     <description lang="es_ES">Esta librería otorga drivers de joystick y mapeo de botones. Soporta múltiples APIs de joystick, incluyendo DirectX, XInput, SDL y la API de Joystick de Linux.</description>
     <description lang="es_MX">Esta biblioteca provee controladores de joysticks y mapas de botones. Múltiples APIs de joystick están soportadas, incluyendo DirectX, XInput, SDL y la Linux Joystick API.</description>
     <description lang="ko_KR">이 라이브러리는 조이스틱 드라이버와 버튼 맵을 제공합니다. DirectX, XInput, SDL 및 Linux Joystick API를 비롯한 여러 조이스틱 API가 지원됩니다.</description>
+    <description lang="nb_NO">Dette biblioteket inneholder joystick-drivere og knappkartlegging. Flere joystick-APIer støttes, blant annet DirectX, XInput, SDL og Linux Joystick API.</description>
     <description lang="pl_PL">Ta biblioteka zawiera sterowniki joysticków i mapy przycisków. Obsługiwanych jest wiele interfejsów API joysticków, m.in. DirectX, XInput, SDL oraz Joystick API systemu Linux.</description>
     <description lang="pt_BR">Esta biblioteca fornece drivers de joystick e mapeamento de botões. Diversas APIs de joystick são suportadas, incluindo DirectX, XInput, SDL e API de Joystick do Linux.</description>
     <description lang="ru_RU">Этот каталог предоставляет драйверы джойстиков и схемы расположения кнопок. Поддерживается несколько API джойстиков, включая DirectX, XInput, SDL и Linux Joystick API.</description>
