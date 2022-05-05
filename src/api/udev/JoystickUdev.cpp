@@ -76,14 +76,18 @@ bool CJoystickUdev::Initialize(void)
   return m_bInitialized;
 }
 
-void CJoystickUdev::Deinitialize(void)
+void CJoystickUdev::Close(void)
 {
   if (m_fd >= 0)
   {
     close(m_fd);
     m_fd = INVALID_FD;
   }
+}
 
+void CJoystickUdev::Deinitialize(void)
+{
+  Close();
   CJoystick::Deinitialize();
 }
 
@@ -242,11 +246,17 @@ bool CJoystickUdev::OpenJoystick()
     return false;
 
   if (ioctl(m_fd, EVIOCGBIT(0, sizeof(evbit)), evbit) < 0)
+  {
+    Close();
     return false;
+  }
 
   // Has to at least support EV_KEY interface
   if (!test_bit(EV_KEY, evbit))
+  {
+    Close();
     return false;
+  }
 
   return true;
 }
