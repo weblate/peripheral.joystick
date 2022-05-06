@@ -67,6 +67,7 @@ namespace JOYSTICK
   private:
     void UpdateMotorState(const std::array<uint16_t, MOTOR_COUNT>& motors);
     void Play(bool bPlayStop);
+    void Close(void);
 
     struct Axis
     {
