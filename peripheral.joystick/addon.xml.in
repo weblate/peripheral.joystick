@@ -25,6 +25,7 @@
     <summary lang="es_MX">Biblioteca de Joysticks de Kodi</summary>
     <summary lang="fi_FI">Kodin peliohjainkirjasto</summary>
     <summary lang="fr_FR">Bibliothèque de joystick Kodi</summary>
+    <summary lang="hr_HR">Kodi Joystick biblioteka</summary>
     <summary lang="it_IT">Libreria Joystick Kodi</summary>
     <summary lang="ko_KR">Kodi 조이스틱 라이브러리</summary>
     <summary lang="lv_LV">Kodi kursorsviru katalogs</summary>
@@ -43,7 +44,8 @@
     <description lang="es_ES">Esta librería otorga drivers de joystick y mapeo de botones. Soporta múltiples APIs de joystick, incluyendo DirectX, XInput, SDL y la API de Joystick de Linux.</description>
     <description lang="es_MX">Esta biblioteca provee controladores de joysticks y mapas de botones. Múltiples APIs de joystick están soportadas, incluyendo DirectX, XInput, SDL y la Linux Joystick API.</description>
     <description lang="fi_FI">Tämä kirjasto sisältää peliohjaimien ajureita ja painikemäärtiyksiä. Useita ohjainrajapintoja tuetaan, kuten mm. DirectX, XInput, SDL ja Linux Joystick API.</description>
-    <description lang="fr_FR">Cette bibliothèque fournit des pilotes de joystick et des cartes de boutons. Plusieurs API de joystick sont prises en charge, notamment DirectX, XInput, SDL et l’API Linux Joystick.</description>
+    <description lang="fr_FR">Cette bibliothèque fournit des pilotes de joystick et les maps de boutons. Plusieurs API de joystick sont prises en charge, notamment DirectX, XInput, SDL et l’API Linux Joystick.</description>
+    <description lang="hr_HR">Ova biblioteka omogućuje upravljačke programe igračih palica i mapiranje tipki. Više API igračih palica je podržano, uključujući DirectX, XInput, SDL i Linux Joystick API.</description>
     <description lang="it_IT">Questa libreria fornisce i driver del joystick e le mappe dei pulsanti. Sono supportate più API joystick, tra cui DirectX, XInput, SDL e l&apos;API Joystick Linux.</description>
     <description lang="ko_KR">이 라이브러리는 조이스틱 드라이버와 버튼 맵을 제공합니다. DirectX, XInput, SDL 및 Linux Joystick API를 비롯한 여러 조이스틱 API가 지원됩니다.</description>
     <description lang="lv_LV">Šajā katalogā ir pieejami kursorsviras draiveri un pogu izkārtojuma kartes. Tiek atbalstītas vairākas kursorsviras API, tostarp DirectX, XInput, SDL un Linux kursorsviras API.</description>
