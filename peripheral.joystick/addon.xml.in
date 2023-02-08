@@ -39,7 +39,7 @@
     <summary lang="zh_CN">Kodi 游戏杆库</summary>
     <description lang="ca_ES">Aquesta llibreria proporciona controladors de joystick i mapes de botons. S&apos;admeten diverses API de joystick, incloses DirectX, XInput, SDL i l&apos;API Joystick de Linux.</description>
     <description lang="da_DK">Dette bibliotek indeholder joystick-drivere og knapgrupperinger. Flere joystick-API&apos;er understøttes, herunder DirectX, XInput, SDL og Linux Joystick API.</description>
-    <description lang="de_DE">Diese Bibliothek enthält Joystick-Treiber und Schaltflächenzuordnungen. Es werden mehrere Joystick-APIs unterstützt, darunter DirectX, XInput, SDL und die Linux-Joystick-API.</description>
+    <description lang="de_DE">Diese Bibliothek enthält Joysticktreiber und Schaltflächenzuordnungen. Es werden mehrere Joystick-APIs unterstützt, darunter DirectX, XInput, SDL und die Linux-Joystick-API.</description>
     <description lang="en_GB">This library provides joystick drivers and button maps. Multiple joystick APIs are supported, including DirectX, XInput, SDL and the Linux Joystick API.</description>
     <description lang="es_ES">Esta librería otorga drivers de joystick y mapeo de botones. Soporta múltiples APIs de joystick, incluyendo DirectX, XInput, SDL y la API de Joystick de Linux.</description>
     <description lang="es_MX">Esta biblioteca provee controladores de joysticks y mapas de botones. Múltiples APIs de joystick están soportadas, incluyendo DirectX, XInput, SDL y la Linux Joystick API.</description>
