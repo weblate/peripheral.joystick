@@ -5,6 +5,8 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
 include(CheckIncludeFiles)
 
+find_package(PkgConfig)
+
 # --- Add-on Dependencies ------------------------------------------------------
 
 find_package(Kodi REQUIRED)
@@ -200,13 +202,13 @@ endif()
 # --- udev ---------------------------------------------------------------------
 
 if(CORE_SYSTEM_NAME STREQUAL linux)
-  find_package(udev REQUIRED)
+  find_package(UDEV REQUIRED)
 endif()
 
 if(UDEV_FOUND)
   include_directories(${UDEV_INCLUDE_DIRS})
 
-  add_definitions(-DHAVE_UDEV)
+  add_definitions(${UDEV_DEFINITIONS})
 
   list(APPEND JOYSTICK_SOURCES src/api/udev/JoystickInterfaceUdev.cpp
                                src/api/udev/JoystickUdev.cpp)
