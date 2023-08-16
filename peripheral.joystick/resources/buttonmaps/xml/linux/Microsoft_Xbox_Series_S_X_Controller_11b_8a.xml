@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <buttonmap>
-    <device name="Xbox Elite Wireless Controller" provider="linux" buttoncount="15" axiscount="9">
+    <device name="Microsoft Xbox Series S|X Controller" provider="linux" buttoncount="11" axiscount="8">
         <configuration>
             <appearance id="game.controller.default" />
             <axis index="2" center="-1" range="2" />
