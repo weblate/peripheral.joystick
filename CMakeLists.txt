@@ -225,8 +225,8 @@ set(LINUX_SELECT_LINE "\
           <default>0</default>
           <constraints>
             <options>
-              <option label=\"30007\">0</option>
-              <option label=\"30005\">1</option>
+              <option label=\"30005\">0</option>
+              <option label=\"30007\">1</option>
               <option label=\"30002\">2</option>
             </options>
           </constraints>
@@ -239,8 +239,8 @@ set(SDL_SELECT_LINE "\
           <constraints>
             <options>
               <option label=\"30008\">0</option>
-              <option label=\"30007\">1</option>
-              <option label=\"30005\">2</option>
+              <option label=\"30005\">1</option>
+              <option label=\"30007\">2</option>
               <option label=\"30002\">3</option>
             </options>
           </constraints>
