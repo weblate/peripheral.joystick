@@ -1,1 +1,1 @@
-buildPlugin(version: "Piers", deploy: ['ubuntu-ppa'])
+buildPlugin(version: "Piers")
